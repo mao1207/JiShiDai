@@ -1,0 +1,32 @@
+<view class="container">
+    <view class="rectangle5"></view>
+    <view class="rectangle4"></view>
+    <view class="text9">团体约课表单</view>
+    <view class="rectangle6"></view>
+    <text class="text10">欢迎大家预约我们的课程！对于课程预约希望预约者注意以下两点说明：\n1.宣讲需至少提前3天预约，三天以内的预约将不受理，请大家预约时注意时间限制哦~ \n2.联络员将根据预约顺序处理各宣讲预约，预约结果将在审核完成后发布在我的课程界面，请大家耐心等待~</text>
+    <view class="rectangle7"></view>
+    <view class="text11">预约信息</view>
+    <view class="text12">单位、团体名称</view>
+    <view class="rectangle8"></view>
+    <view class="text12" style="top:754rpx">活动事宜</view>
+    <view class="rectangle8" style="top:752rpx"></view>
+    <view class="text12" style="top:824rpx">参加人数</view>
+    <view class="rectangle8" style="top:822rpx"></view>
+    <view class="text12" style="top:896rpx">联系人</view>
+    <view class="rectangle8" style="top:894rpx"></view>
+    <view class="text12" style="top:964rpx">手机号</view>
+    <view class="rectangle8" style="top:962rpx"></view>
+    <view class="text12" style="top:1030rpx">微信号</view>
+    <view class="rectangle8" style="top:1032rpx"></view>
+    <view class="rectangle7" style="top:1126rpx"></view>
+    <view class="text11" style="top:1128rpx">选择课程</view>
+    <view class="rectangle8" style="top:1128rpx;width:182rpx"></view>
+    <view class="circle"></view>
+    <image class="image5" src="../../images/magnifyingGlass.png"></image>
+    <view class="rectangle7" style="top:1210rpx"></view>
+    <view class="text11" style="top:1212rpx">授课形式</view>
+    <view class="rectangle7" style="top:1324rpx"></view>
+    <view class="text11" style="top:1326rpx">预约日期</view>
+    <view class="rectangle9"></view>
+    <view class="text13">提交</view>
+</view>

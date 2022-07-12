@@ -1,0 +1,26 @@
+<view class="container">
+    <view class="rectangle1"></view>
+    <image class="image1" src="../../images/leftArrow.png" bindtap="goback"></image>
+    <view class="text1">首页</view>
+    <view class="rectangle2"></view>
+    <view class="rectangle3"></view>
+    <view class="text2">搜索课号、课程名称、课程主题</view>
+    <view class="text3">白衣执甲</view>
+    <view class="text3_clicked">青年声音</view>
+    <view class="rectangle4"></view>
+    <view class="text3" style="left:298rpx">勇挑重担</view>
+    <view class="text3" style="left:434rpx">同舟共济</view>
+    <view class="text3" style="left:570rpx">学子初心</view>
+    <view class="rectangle5"></view>
+    <view class="circle"></view>
+    <view class="text4">一二九宣讲团</view>
+</view>
+<scroll-view class="scrollview">
+    <swiper class="swiper-box" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:for-index="index">
+  <swiper-item>
+  <image class='image2' src="{{item}}" bindtap="skip" data-num="{{index + 1}}"></image>
+  </swiper-item>
+  </block>
+  </swiper>
+</scroll-view>

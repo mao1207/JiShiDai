@@ -14,6 +14,16 @@ App({
       });
     }
 
-    this.globalData = {};
+    this.globalData = {
+        userName:'',
+        userClass:'',
+        userAuthority:'',
+        userNickname:'',
+        userNumber:'',
+        userSex:'',
+        userHead:'',
+        userId:'',
+        token:'',
+    };
   }
 });

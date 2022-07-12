@@ -1,25 +1,50 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/getOpenId/index",
-    "pages/getMiniProgramCode/index",
-    "pages/deployService/index",
-    "pages/createCollection/index",
-    "pages/uploadFile/index",
-    "pages/selectRecord/index",
-    "pages/updateRecord/index",
-    "pages/updateRecordResult/index",
-    "pages/updateRecordSuccess/index",
-    "pages/sumRecord/index",
-    "pages/sumRecordResult/index"
-  ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+    "pages": [
+        "pages/login/login",
+        "pages/homePage/index",
+        "pages/appointment/index",
+        "pages/webview/index1",
+        "pages/webview/index2",
+        "pages/webview/index3",
+        "pages/webview/index4",
+        "pages/webview/index5",
+        "pages/me/index",
+        "pages/introduction/index",
+        "pages/appointment",
+        "pages/me",
+        "pages/lecturer/lecturer",
+        "pages/search/search"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "济时代",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2",
+    "tabBar": {
+        "color": "black",
+        "list": [
+            {
+                "pagePath": "pages/homePage/index",
+                "text": "首页",
+                "iconPath": "images/home.png",
+                "selectedIconPath": "images/home_clicked.png"
+            },
+            {
+                "pagePath": "pages/appointment/index",
+                "text": "预约",
+                "iconPath": "images/appointment.png",
+                "selectedIconPath": "images/appointment_clicked.png"
+            },
+            {
+                "pagePath": "pages/me/index",
+                "text": "我的",
+                "iconPath": "images/me.png",
+                "selectedIconPath": "images/me_clicked.png"
+            }
+        ]
+    }
 }

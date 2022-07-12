@@ -1,0 +1,4 @@
+<view class="comment" style="bottom:{{bottomHeight}}px;">
+  <textarea class="textarea" show-confirm-bar="{{false}}" auto-height="true" auto-focus="true" cursor-spacing='0' adjust-position="{{false}}"  	 placeholder="评论" maxlength="1000" value="{{content}}" bindfocus="bindfocus" bindinput="bindinput" bindblur="bindblur"></textarea>
+  <button class="send_out" style="width: 100rpx;" disabled="{{content?false:true}}" bindtap="sendOut" >发送</button>
+</view>

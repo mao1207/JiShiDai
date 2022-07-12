@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">济时代</view>
+  <view class="rectangle1"></view>
+  <view class="subtitle1">济资讯</view>
+  <view class="rectangle2"></view>
+  <view class="subtitle2">济热点</view>
+  <view class="words1">时代之声|团中央书记处传达学习全国两会精神</view>
+  <image class="image2" src="../../images/newsbelow1.jpg"></image>
+  <view class="touch1" bindtap="skip" data-num="{{1}}"></view>
+  <view class="words2">送团课进支部|“云”上团课，“疫” 刻不停</view>
+  <image class="image3" src="../../images/newsbelow2.jpg"></image>
+  <view class="touch2" bindtap="skip" data-num="{{2}}"></view>
+  <view class="words3">党史青年说|百年渔阳学党史，星火 传参觅初心 </view>
+  <image class="image4" src="../../images/newsbelow3.jpg"></image>
+  <view class="touch3" bindtap="skip" data-num="{{3}}"></view>
+  <view class="words4">理论研习会|“学而时习”理论研习会圆满落幕</view>
+  <image class="image5" src="../../images/newsbelow4.jpg"></image>
+  <view class="touch4" bindtap="skip" data-num="{{4}}"></view>
+  <view class="words5">济刻发生|每人都能讲好五分钟微团课</view>
+  <image class="image6" src="../../images/newsbelow5.jpg"></image>
+  <view class="touch5" bindtap="skip" data-num="{{5}}"></view>
+  <image class="line1" src="../../images/line.svg"></image>
+  <image class="line2" src="../../images/line.svg"></image>
+  <image class="line3" src="../../images/line.svg"></image>
+  <image class="line4" src="../../images/line.svg"></image>
+  <image class="line5" src="../../images/line.svg"></image>
+</view>
+<scroll-view class="scrollview">
+    <swiper class="swiper-box" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:for-index="index">
+  <swiper-item>
+  <image class='image1' src="{{item}}" bindtap="skip" data-num="{{index + 1}}"></image>
+  </swiper-item>
+  </block>
+  </swiper>
+</scroll-view>

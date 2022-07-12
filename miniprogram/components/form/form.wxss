@@ -1,0 +1,155 @@
+.rectangle4{
+    position: absolute;
+    width: 308rpx;
+    height: 58rpx;
+    top: 286rpx;
+    left: 204rpx;
+    background: rgb(245, 126, 105);
+    border-radius: 200rpx;
+}
+
+.rectangle5{
+    position: absolute;
+    width: 750rpx;
+    height: 1240rpx;
+    top: 308rpx;
+    left: 0;
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 40rpx;
+    border-top-right-radius: 40rpx;
+}
+
+.rectangle6{
+    position: absolute;
+    width: 654rpx;
+    height: 222rpx;
+    top: 362rpx;
+    left: 44rpx;
+    background: rgb(251, 227, 219);
+    border: 6rpx solid rgb(245, 126, 105);
+    border-radius: 20rpx;
+}
+
+.rectangle7{
+    position: absolute;
+    width: 182rpx;
+    height: 40rpx;
+    top: 616rpx;
+    left: 10rpx;
+    background: rgb(245, 126, 105);
+    border-radius: 200rpx;
+}
+
+.rectangle8{
+    position: absolute;
+    width: 364rpx;
+    height: 38rpx;
+    top: 684rpx;
+    left: 298rpx;
+    box-sizing: border-box;
+    background: rgba(196, 196, 196, 0);
+    border: 2rpx solid rgb(0, 0, 0);
+}
+
+.rectangle9{
+    position: absolute;
+    width: 222rpx;
+    height: 70rpx;
+    top: 1430rpx;
+    left: 248rpx;
+    background: rgb(245, 126, 105);
+    border-radius: 200rpx;
+}
+
+.text9{
+    position: absolute;
+    width: 194rpx;
+    height: 48rpx;
+    top: 290rpx;
+    left: 266rpx;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 400;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text10{
+    position: absolute;
+    width: 596rpx;
+    height: 64rpx;
+    top: 380rpx;
+    left: 86rpx;
+    font-family: Noto Sans SC;
+    font-size: 20rpx;
+    font-weight: 400;
+    line-height: 30rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text11{
+    position: absolute;
+    width: 98rpx;
+    height: 36rpx;
+    top: 618rpx;
+    left: 54rpx;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height: 36rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text12{
+    position: absolute;
+    width: 170rpx;
+    height: 36rpx;
+    top: 684rpx;
+    left: 96rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height: 36rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text13{
+    position: absolute;
+    width: 66rpx;
+    height: 48rpx;
+    top: 1438rpx;
+    left: 332rpx;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 400;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+    pointer-events:none;
+}
+
+.circle{
+    position: absolute;
+    width: 40rpx;
+    height: 40rpx;
+    top: 1126rpx;
+    left: 500rpx;
+    background: rgb(245, 126, 105);
+    border-radius: 200rpx;
+}
+
+.image5{
+    position: absolute;
+    width: 32rpx;
+    height: 36rpx;
+    top: 1128rpx;
+    left: 504rpx;
+}

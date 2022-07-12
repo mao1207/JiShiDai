@@ -1,0 +1,182 @@
+page{
+    position: relative;
+    width: 750rpx;
+    height: 1624rpx;
+    background: rgb(254, 238, 232);
+}
+
+.text1{
+    position: absolute;
+    width: 56rpx;
+    height: 42rpx;
+    top: 124rpx;
+    left: 66rpx;
+    color: rgb(1, 1, 1);
+    font-family: Noto Sans SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    line-height: 42rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text2{
+    position: absolute;
+    width: 254rpx;
+    height: 26rpx;
+    top: 132rpx;
+    left: 180rpx;
+    color: rgb(200, 198, 198);
+    font-family: Noto Sans SC;
+    font-size: 18rpx;
+    font-weight: 400;
+    line-height: 26rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text3{
+    position: absolute;
+    width: 88rpx;
+    height: 32rpx;
+    top: 208rpx;
+    left: 16rpx;
+    color: rgb(109, 93, 93);
+    font-family: Noto Sans SC;
+    font-size: 22rpx;
+    font-weight: 400;
+    line-height: 32rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text3_clicked{
+    position: absolute;
+    width: 98rpx;
+    height: 36rpx;
+    top: 204rpx;
+    left: 152rpx;
+    color: rgb(253, 98, 98);
+    font-family: Noto Sans SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height: 36rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text4{
+    position: absolute;
+    width: 146rpx;
+    height: 36rpx;
+    top: 644rpx;
+    left: 140rpx;
+    color: rgb(109, 93, 93);
+    font-family: Noto Sans SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height: 36rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.rectangle1{
+    position: absolute;
+    width: 750rpx;
+    height: 258rpx;
+    top: 0;
+    left: 0;
+    background: rgb(253, 190, 168);
+}
+
+.rectangle2{
+    position: absolute;
+    width: 322rpx;
+    height: 54rpx;
+    top: 116rpx;
+    left: 156rpx;
+    background: rgb(255, 255, 255);
+    border-radius: 20rpx 0rpx 0rpx 20rpx;
+}
+
+.rectangle3{
+    position: absolute;
+    width: 44rpx;
+    height: 54rpx;
+    top: 116rpx;
+    left: 478rpx;
+    background: rgb(245, 127, 106);
+    border-radius: 0rpx 20rpx 20rpx 0rpx;
+}
+
+.rectangle4{
+    position: absolute;
+    width: 36rpx;
+    height: 8rpx;
+    top: 238rpx;
+    left: 180rpx;
+    background: rgb(245, 127, 106);
+    border-radius: 10rpx;
+}
+
+.rectangle5{
+    position: absolute;
+    width: 714rpx;
+    height: 394rpx;
+    top: 600rpx;
+    left: 18rpx;
+    background: rgb(255, 255, 255);
+    border-radius: 20rpx;
+}
+
+.circle{
+    position: absolute;
+    width: 80rpx;
+    height: 80rpx;
+    top: 620rpx;
+    left: 42rpx;
+    border-radius: 40rpx;
+    background: rgb(196, 196, 196);
+}
+
+.image1{
+    position: absolute;
+    width: 60rpx;
+    height: 40rpx;
+    top: 124rpx;
+    left: 20rpx;
+}
+
+.image2{
+    position: absolute;
+    width: 662.02rpx;
+    height: 280.90rpx;
+    top: 0rpx;
+    left:0rpx;
+    border-radius: 16rpx;
+}
+
+wx-swiper .wx-swiper-dot {
+    position: relative;
+    top:-278rpx;
+    width: 16rpx;
+    height: 16rpx;
+    border-radius: 8rpx;
+}
+wx-swiper .wx-swiper-dot-active {
+  background-color:rgb(245, 127, 106);
+}
+
+.swiper-box {
+    position: relative;
+    width: 662.02rpx;
+    height: 600rpx;
+    top: 0rpx;
+    left:46.5rpx;  
+ }
+
+ .scrollview{
+    position: absolute;
+    top: 282rpx;
+    height: 340rpx;
+ }

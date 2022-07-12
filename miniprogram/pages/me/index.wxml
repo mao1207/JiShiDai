@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">济时代</view>
+  <image class="image1" src="{{userHead}}" bindtap="uploadImg"></image>
+  <view class="text1">{{userNickname}}</view>
+  <view class="rectangle4"></view>
+  <view class="rectangle5"></view>
+  <image class="image7" src="{{sexUrl}}"></image>
+  <view class="text10">{{userNumber}}</view>
+  <view class="rectangle1"></view>
+  <image class="image6" src="../../images/book.png"></image>
+  <view class="text9">签到</view>
+  <view class="text2">{{userAuthority}}</view>
+  <view class="rectangle2"></view>
+  <view class="text3">{{userClass}}</view>
+  <view class="text5">历史课程</view>
+  <image class="image2" src="../../images/rightArrow2.png"></image>
+  <view class="text6">意见反馈</view>
+  <image class="image3" src="../../images/rightArrow2.png"></image>
+  <view class="text7">设置</view>
+  <image class="image4" src="../../images/rightArrow2.png"></image>
+  <view class="text8">关于</view>
+  <image class="image5" src="../../images/rightArrow2.png"></image>
+  <view class="rectangle3" bindtap="logOut"></view>
+  <view class="text4">退出登录</view>
+</view>

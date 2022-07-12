@@ -1,4 +1,4 @@
-// pages/getMiniProgramCode/index.js
+// pages/appointment.js
 Page({
 
     /**

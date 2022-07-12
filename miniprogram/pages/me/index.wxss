@@ -1,0 +1,286 @@
+page {
+    padding-top: 54rpx;
+    background: linear-gradient(rgba(245,110,90,255) 5.559%,rgba(244,163,140,255) 12.7%,rgba(244,191,167,255) 19.403%,rgba(244,214,188,255) 32.664%,rgba(254,250,248,14) 94.713%);
+    background-size: 100% 1624rpx;
+    padding-bottom: 60rpx;
+  }
+  
+.title {
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40rpx;
+    margin-top: 44rpx;
+    margin-bottom: 88rpx;
+  }
+
+.text1{
+    position: absolute;
+    width: 350rpx;
+    height: 48rpx;
+    top: 212rpx;
+    left: 220rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 400;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text2{
+    position: absolute;
+    width: 100rpx;
+    height: 48rpx;
+    top: 652rpx;
+    left: 154rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 400;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text3{
+    position: absolute;
+    width: 200rpx;
+    height: 44rpx;
+    top: 656rpx;
+    left: 448rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 30rpx;
+    font-weight: 400;
+    line-height: 44rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text4{
+    position: absolute;
+    width: 112rpx;
+    height: 42rpx;
+    top: 1288rpx;
+    left: 320rpx;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    line-height: 42rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+    pointer-events:none
+}
+
+.text5{
+    position: absolute;
+    width: 130rpx;
+    height: 48rpx;
+    top: 796rpx;
+    left: 104rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 300;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text6{
+    position: absolute;
+    width: 130rpx;
+    height: 48rpx;
+    top: 900rpx;
+    left: 104rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 300;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text7{
+    position: absolute;
+    width: 130rpx;
+    height: 48rpx;
+    top: 1004rpx;
+    left: 104rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 300;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text8{
+    position: absolute;
+    width: 130rpx;
+    height: 48rpx;
+    top: 1108rpx;
+    left: 104rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 300;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.text9{
+    position: absolute;
+    width: 150rpx;
+    height: 72rpx;
+    top: 438rpx;
+    left: 264rpx;
+    color: rgb(254, 239, 234);
+    font-family: Noto Sans SC;
+    font-size: 48rpx;
+    font-weight: 700;
+    line-height: 72rpx;
+    letter-spacing: 2rpx;
+    text-align: left;
+}
+
+.text10{
+    position: absolute;
+    width: 112rpx;
+    height: 42rpx;
+    top: 270rpx;
+    left: 238rpx;
+    color: rgb(0, 0, 0);
+    font-family: Noto Sans SC;
+    font-size: 20rpx;
+    font-weight: 400;
+    line-height: 30rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.rectangle1{
+    position: absolute;
+    width: 622rpx;
+    height: 224rpx;
+    top: 360rpx;
+    left: 64rpx;
+    background: rgb(241, 145, 122);
+    border-radius: 22rpx;
+}
+
+.rectangle2{
+    position: absolute;
+    width: 4rpx;
+    height: 78rpx;
+    top: 636rpx;
+    left: 336rpx;
+    background: rgb(253, 243, 236);
+    border-radius: 200rpx;
+}
+
+.rectangle3{
+    position: absolute;
+    width: 542rpx;
+    height: 76rpx;
+    top: 1270rpx;
+    left: 104rpx;
+    background: rgb(243, 91, 91);
+    border-radius: 12rpx;
+}
+
+.rectangle4{
+    position: absolute;
+    width: 128rpx;
+    height: 32rpx;
+    top: 270rpx;
+    left: 214rpx;
+    background: rgb(241, 145, 122);
+    border-radius: 100rpx;
+}
+
+.rectangle5{
+    position: absolute;
+    width: 44rpx;
+    height: 32rpx;
+    top: 270rpx;
+    left: 358rpx;
+    background: rgb(241, 145, 122);
+    border-radius: 100rpx;
+}
+
+.circle1{
+    position: absolute;
+    width: 100rpx;
+    height: 100rpx;
+    top: 224rpx;
+    left: 76rpx;
+    border-radius:64rpx;
+    border: 4rpx solid rgb(243, 91, 91);
+}
+
+.image1{
+    position: absolute;
+    width: 100rpx;
+    height: 100rpx;
+    top: 210rpx;
+    left: 76rpx;
+    border-radius:64rpx
+}
+
+.image2{
+    position: absolute;
+    width: 50rpx;
+    height: 48rpx;
+    top: 796rpx;
+    left: 625rpx;
+}
+
+.image3{
+    position: absolute;
+    width: 50rpx;
+    height: 48rpx;
+    top: 900rpx;
+    left: 625rpx;
+}
+
+.image4{
+    position: absolute;
+    width: 50rpx;
+    height: 48rpx;
+    top: 1004rpx;
+    left: 625rpx;
+}
+
+.image5{
+    position: absolute;
+    width: 50rpx;
+    height: 48rpx;
+    top: 1108rpx;
+    left: 625rpx;
+}
+
+.image6{
+    position: absolute;
+    width: 79.2rpx;
+    height: 88rpx;
+    top: 428rpx;
+    left: 130rpx;
+}
+
+.image7{
+    position: absolute;
+    width: 20rpx;
+    height: 20rpx;
+    top: 276rpx;
+    left: 372rpx;
+}
+
+
+

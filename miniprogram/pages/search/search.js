@@ -1,11 +1,28 @@
-// pages/getMiniProgramCode/index.js
+// pages/search/search.js
 Page({
 
     /**
      * 页面的初始数据
      */
-    data: {
+    data:{
+        imgUrls: [
+            '../../images/newsbelow1.jpg',
+            '../../images/newsbelow2.jpg',
+            '../../images/newsbelow3.jpg',
+            '../../images/newsbelow4.jpg',
+            '../../images/newsbelow5.jpg',
+        ],
+        indicatorDots: true,
+        autoplay: true,
+        interval: 5000,
+        duration: 1000,
+        number:0,
+    },
 
+    goback:function(){
+        wx.navigateBack({
+            delta: 1,
+        })
     },
 
     /**

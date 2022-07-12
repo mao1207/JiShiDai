@@ -1,0 +1,22 @@
+<view class="container">
+    <image class="image" src="{{lecturerPicture}}"></image>
+    <view class="rectangle1"></view>
+    <image class="head" src="{{lecturerHead}}"></image>
+    <view class="text1">同济大学{{lecturerOrg}}讲师 {{lecturerName}}</view>
+    <view class="rectangle2"></view>
+    <view class="text2">{{lecturerNumber}}</view>
+    <view class="rectangle3"></view>
+    <image class="image2" src="{{lecturerSex}}"></image>
+    <image class="love" src="../../images/like2.png"></image>
+    <view class="text5">{{lecturerLove}}</view>
+    <view class="rectangle4"></view>
+    <view class="rectangle5"></view>
+    <view class="text3">讲师简介</view>
+    <view class="text4">{{lecturerIntroduction}}</view>
+    <view class="rectangle6"></view>
+    <view class="rectangle7"></view>
+    <view class="text6">听众评价 32</view>
+</view>
+<view class='box-detail' style="padding-top:{{widnowH <=568 ?bar_Height + 40:bar_Height + 45}}px;">			
+  <component title='讲师信息' show_bol='{{false}}'></component>
+</view>

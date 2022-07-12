@@ -1,4 +1,4 @@
-// pages/getMiniProgramCode/index.js
+// pages/me.js
 Page({
 
     /**

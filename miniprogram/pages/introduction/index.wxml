@@ -1,0 +1,33 @@
+<view class="page">
+  <image class="classimage" src="{{picture}}"></image>
+  <view class="rectangle1"style="height:{{length}}rpx"></view>
+  <view class="classname">{{className}}</view>
+  <view class="teacher" bindtap="skip">同济大学{{teacher.lecturerOrg}}青年讲师 {{teacher.lecturerName}}</view>
+  <image class="line1" src = "../../images/line2.png"></image>
+  <view class="time">{{classDate}}  {{classTime}}</view>
+  <view class="rectangle7" style="background:{{color}}"></view>
+  <view class="text1" bindtap="{{function}}">{{text}}</view>
+  <view class="rectangle2"></view>
+  <view class="rectangle4"></view>
+  <view class="classintroduction">课程简介</view>
+  <view class="classcontent">{{classIntroduction}}</view>
+  <view class="rectangle3"></view>
+  <view class="rectangle5"></view>
+  <view class="commenttitle">评论区 {{comment.length}}</view>
+  <block wx:for="{{comment}}" wx:for-index="index" wx:for-item="item">
+    <image class="head1" src="{{item.head}}" style="top:{{1240+item.height}}rpx"></image>
+    <view class="name1"style="top:{{1242+item.height}}rpx">{{item.name}}</view>
+    <view class="time1"style="top:{{1290+item.height}}rpx">{{item.date}}</view>
+    <view class="comment1"style="top:{{1328+item.height}}rpx">{{item.content}}</view>
+  </block>
+  <view class="{{buttonRectangle}}" bindtap="upAppoint"></view>
+  <view class="button">{{buttonText}}</view>
+</view>
+<view class='box-detail' style="padding-top:{{widnowH <=568 ?bar_Height + 40:bar_Height + 45}}px;">			
+  <component title='团课预约' show_bol='{{false}}'></component>
+</view>
+<view>		
+  <comment bind:content="uploading"></comment>
+</view>
+
+

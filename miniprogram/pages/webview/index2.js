@@ -1,4 +1,4 @@
-// pages/getMiniProgramCode/index.js
+// pages/webview/index2.js
 Page({
 
     /**

@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">济时代</view>
+  <view class="{{classtext1}}" bindtap="textclick1">个人约课</view>
+  <view class="{{classtext2}}" bindtap="textclick2">团体约课</view>
+  <view class="{{classtext3}}" bindtap="textclick3">我的课程</view>
+  <view class="{{underlinestyle}}"></view>
+  <image class="image1" src="../../images/magnifyingGlass.png" bindtap="skip2"></image>
+  <image class="image2" src="../../images/calendar.png"></image>
+  <view style='display:{{display1}}'>
+    <block wx:for="{{canlendar}}" wx:for-index="index" wx:for-item="item">
+    <view class="{{item.class1}}">{{item.dateMonth+'.'+item.dateDay}}</view>
+    <view class="{{item.class2}}">{{item.day}}</view>
+    <image class="image3" src="../../images/leftArrow.png" bindtap="leftShift"></image>
+    <image class="image4" src="../../images/rightArrow.png" bindtap="rightShift"></image>
+    </block>
+    <view style='display:{{item.classDisplay}}'>
+        <block wx:for="{{class[step]}}" wx:for-index="index" wx:for-item="item">
+        <view class='rectangle' style="top:{{406+index*260}}rpx"></view>
+        <view class='text4' style="top:{{424+index*260}}rpx">{{item.name}}</view>
+        <view class='rectangle2' style="top:{{428+index*260}}rpx"></view>
+        <view class='text5' style="top:{{430+index*260}}rpx">{{item.classes}}</view>
+        <view class='text6' style="top:{{474+index*260}}rpx">{{item.org}}</view>
+        <view class='text7' style="top:{{506+index*260}}rpx">{{item.time}}</view>
+        <view class='rectangle3' style="top:{{552+index*260}}rpx;background:{{item.personColor}};" bindtap="skip"data-num="{{index}}"></view>
+        <view class='text8' style="top:{{566+index*260}}rpx;left:{{item.personText}}rpx;" >{{item.personState}}</view>
+        <image class="picture" src="{{item.picture}}" style="top:{{468+index*260}}rpx"></image>
+        </block>
+    </view>
+  </view>
+  <view style='display:{{display2}}'>
+    <view class="rectangle5"></view>
+    <view class="rectangle4"></view>
+    <view class="text9">团体约课表单</view>
+    <view class="rectangle6"></view>
+    <text class="text10">欢迎大家预约我们的课程！对于课程预约希望预约者注意以下两点说明：\n1.宣讲需至少提前3天预约，三天以内的预约将不受理，请大家预约时注意时间限制哦~ \n2.联络员将根据预约顺序处理各宣讲预约，预约结果将在审核完成后发布在我的课程界面，请大家耐心等待~</text>
+    <view class="rectangle7"></view>
+    <view class="text11">预约信息</view>
+    <view class="text12">单位、团体名称</view>
+    <view class="rectangle8"></view>
+    <view class="text12" style="top:754rpx">活动事宜</view>
+    <view class="rectangle8" style="top:752rpx"></view>
+    <view class="text12" style="top:824rpx">参加人数</view>
+    <view class="rectangle8" style="top:822rpx"></view>
+    <view class="text12" style="top:896rpx">联系人</view>
+    <view class="rectangle8" style="top:894rpx"></view>
+    <view class="text12" style="top:964rpx">手机号</view>
+    <view class="rectangle8" style="top:962rpx"></view>
+    <view class="text12" style="top:1030rpx">微信号</view>
+    <view class="rectangle8" style="top:1032rpx"></view>
+    <view class="rectangle7" style="top:1126rpx"></view>
+    <view class="text11" style="top:1128rpx">选择课程</view>
+    <view class="rectangle8" style="top:1128rpx;width:182rpx"></view>
+    <view class="rectangle7" style="top:1210rpx"></view>
+    <view class="text11" style="top:1212rpx">授课形式</view>
+    <view class="rectangle7" style="top:1324rpx"></view>
+    <view class="text11" style="top:1326rpx">预约日期</view>
+    <view class="rectangle9"></view>
+    <view class="text13">提交</view>
+  </view>
+  <view style='display:{{display3}}'>
+
+  </view>
+</view>
+

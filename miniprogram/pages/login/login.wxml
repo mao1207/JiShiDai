@@ -1,0 +1,18 @@
+<view class="container">
+    <image class="background" src="../../images/background(1).jpg"></image>
+    <view class="page"></view>
+    <image class="title" src="../../images/word.png"></image>
+    <view class="rectangle1"></view>
+    <view class="subtitle">开启思政教育新模式</view>
+    <view class="rectangle2"></view>
+    <view class="text1">账号</view>
+    <input class="rectangle4" placeholder="请输入账号" placeholder-class="input" bindinput="phoneInput"></input>
+    <view class="rectangle3"></view>
+    <view class="text2">密码</view>
+    <input class="rectangle5" password="true" placeholder="请输入密码" placeholder-class="input" bindinput="passwordInput"></input>
+    <view class="rectangle6" bindtap="login"></view>
+    <view class="text3">登录</view>
+    <view class="rectangle7"></view>
+    <view class="rectangle8"></view>
+    <view class="text4">面壁工作室</view>
+</view>

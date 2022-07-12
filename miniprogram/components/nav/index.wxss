@@ -1,0 +1,45 @@
+/* components/nav/nav.wxss */
+/* 顶部导航 */
+.status-bar {
+    width: 100%;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    background: rgb(255, 255, 255);
+    
+  }
+  .goBack{
+    position: absolute;
+    top: 15rpx;
+    font-size:12pt;
+  }
+  .goBack image{
+    width: 56rpx;
+    height: 56rpx;
+    padding: 12rpx 20px 0 30rpx;
+  }
+  .tabar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0); 
+  
+  }
+  
+  .tabar2{
+    background: transparent !important;
+  }
+  .tabar2 text{
+    color: #fff !important;
+    font-weight: lighter !important;
+  }
+  .tabar text {
+    height: 44px;
+    line-height: 44px;
+    padding: 0 30rpx;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    font-weight: bold;
+  }
+  .tabar .active {
+    color: #fff;
+  }
