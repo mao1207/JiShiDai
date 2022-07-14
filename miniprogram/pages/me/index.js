@@ -38,7 +38,7 @@ Page({
         // 将图片上传
         wx.uploadFile({
           header: { 'Content-Type': 'application/json','Authorization': app.globalData.token},
-          url:'http://192.168.1.8/dev-api/common/upload',
+          url:'http://1.15.78.63/dev-api/common/upload',
           filePath: tempFilePaths,
           name:'file',
           formData:{ 
@@ -49,7 +49,7 @@ Page({
             res = JSON.parse(res.data);
             var app = getApp();
             wx.request({
-                url: 'http://192.168.1.8/dev-api/jsd/jsduser', 
+                url: 'http://1.15.78.63/dev-api/jsd/jsduser', 
                 method:'PUT',
                 data:{
                     userId: app.globalData.userId,
@@ -63,7 +63,7 @@ Page({
             that.setData({
               haveGetImgSrc: true,
               imgSrc: tempFilePaths,
-              userHead:'http://192.168.1.8:8080'+res.fileName,
+              userHead:'http://1.15.78.63/dev-api'+res.fileName,
             });
             app.globalData.userHead = res.fileName;
             wx.hideLoading();
@@ -100,7 +100,7 @@ Page({
       userAuthority:authority,
       userNickname:nickname,
       userNumber:number,
-      userHead:'http://192.168.1.8:8080'+head,
+      userHead:'http://1.15.78.63/dev-api'+head,
     });
     console.log(sex);
     if(sex=="男")

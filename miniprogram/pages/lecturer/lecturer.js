@@ -25,8 +25,8 @@ Page({
             lecturerSex:sex,
             lecturerIntroduction:teacher.lecturerIntroduction,
             lecturerLove:teacher.lecturerLove,
-            lecturerPicture:'http://192.168.1.8/dev-api'+teacher.lecturerPicture,
-            lecturerHead:'http://192.168.1.8/dev-api'+teacher.lecturerHead,
+            lecturerPicture:'http://1.15.78.63/dev-api'+teacher.lecturerPicture,
+            lecturerHead:'http://1.15.78.63/dev-api'+teacher.lecturerHead,
             lecturerNumber:teacher.lecturerNumber,
         })
     }

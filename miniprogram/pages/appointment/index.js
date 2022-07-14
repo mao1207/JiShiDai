@@ -262,7 +262,7 @@ Page({
         })
         var app = getApp();
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsdclasses/list?pageNum='+i+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsdclasses/list?pageNum='+i+'&pageSize=10',
             method:'get',
             data:{  
             },
@@ -277,7 +277,7 @@ Page({
                         that.data.class[that.data.step][index].name=res.data.rows[i].classesName;
                         that.data.class[that.data.step][index].org=res.data.rows[i].classesOrg;
                         that.data.class[that.data.step][index].introduction=res.data.rows[i].classesIntroduction;
-                        that.download('http://192.168.1.8/dev-api'+res.data.rows[i].classesPicture,index);
+                        that.download('http://1.15.78.63/dev-api'+res.data.rows[i].classesPicture,index);
                         console.log(that.data.class);
                     }
                     var state = 'state['+that.data.step+']';
@@ -303,7 +303,7 @@ Page({
         })
         var app = getApp();
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsdschedule/list?pageNum='+i+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsdschedule/list?pageNum='+i+'&pageSize=10',
             method:'get',
             data:{  
             },

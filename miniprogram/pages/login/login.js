@@ -13,7 +13,7 @@ Page({
             num:i,
         })
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsduser/list?pageNum='+i+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsduser/list?pageNum='+i+'&pageSize=10',
             method:'get',
             data:{  
             },
@@ -101,7 +101,7 @@ Page({
     }, 
     onLoad(options){
         wx.request({
-            url: 'http://192.168.1.8/dev-api/login',
+            url: 'http://1.15.78.63/dev-api/login',
             header:{'content-type':'application/json'},
             data: {
                 password: "admin123",

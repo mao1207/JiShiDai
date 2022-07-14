@@ -44,7 +44,7 @@ Page({
     var that=this;
     var app = getApp();
     wx.request({
-        url: 'http://192.168.1.8/dev-api/jsd/jsdlecturer/list?pageNum='+i+'&pageSize=10',
+        url: 'http://1.15.78.63/dev-api/jsd/jsdlecturer/list?pageNum='+i+'&pageSize=10',
         method:'get',
         data:{  
         },
@@ -86,7 +86,7 @@ Page({
         num2:i,
     })
     wx.request({
-        url: 'http://192.168.1.8/dev-api/jsd/jsdclasscomment/list?pageNum='+i+'&pageSize=10',
+        url: 'http://1.15.78.63/dev-api/jsd/jsdclasscomment/list?pageNum='+i+'&pageSize=10',
         method:'get',
         data:{  
         },
@@ -124,7 +124,7 @@ Page({
                         var day=time.getDate();
                         var json={
                             name:app.globalData.userNickname,
-                            head:'http://192.168.1.8:8080'+app.globalData.userHead,
+                            head:'http://1.15.78.63/dev-api'+app.globalData.userHead,
                             date:year+'-'+month+'-'+day,
                             content:that.data.content,
                         }
@@ -132,7 +132,7 @@ Page({
                         var text = JSON.stringify(comment);
                         console.log(text);
                         wx.request({
-                            url: 'http://192.168.1.8/dev-api/jsd/jsdclasscomment', 
+                            url: 'http://1.15.78.63/dev-api/jsd/jsdclasscomment', 
                             method:'PUT',
                             data:{
                                 commentId: that.data.id,
@@ -181,7 +181,7 @@ Page({
             num4:i,
         })
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsdschedule/list?pageNum='+i+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsdschedule/list?pageNum='+i+'&pageSize=10',
             method:'get',
             data:{  
             },
@@ -215,7 +215,7 @@ Page({
         var that = this;
         var app = getApp();
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsdschedule/list?pageNum='+this.data.page+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsdschedule/list?pageNum='+this.data.page+'&pageSize=10',
             method:'GET',
             header: { 'Content-Type': 'application/json','Authorization': app.globalData.token},
             success (res) {
@@ -227,7 +227,7 @@ Page({
                 var text = JSON.stringify(appoint);
                 console.log(that.data.classId);
                 wx.request({
-                    url: 'http://192.168.1.8/dev-api/jsd/jsdschedule', 
+                    url: 'http://1.15.78.63/dev-api/jsd/jsdschedule', 
                     method:'PUT',
                     data:{
                         scheduleId: that.data.classId,
@@ -257,7 +257,7 @@ Page({
             num5:i,
         })
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsduser/list?pageNum='+i+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsduser/list?pageNum='+i+'&pageSize=10',
             method:'get',
             data:{  
             },
@@ -273,7 +273,7 @@ Page({
                         appoint[appoint.length]={"class":that.data.classId}; 
                         var text = JSON.stringify(appoint);
                         wx.request({
-                            url: 'http://192.168.1.8/dev-api/jsd/jsduser', 
+                            url: 'http://1.15.78.63/dev-api/jsd/jsduser', 
                             method:'PUT',
                             data:{
                                 userId: app.globalData.userId,
@@ -319,7 +319,7 @@ Page({
             num4:i,
         })
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsdschedule/list?pageNum='+i+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsdschedule/list?pageNum='+i+'&pageSize=10',
             method:'get',
             data:{  
             },
@@ -353,7 +353,7 @@ Page({
         var that = this;
         var app = getApp();
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsdschedule/list?pageNum='+this.data.page+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsdschedule/list?pageNum='+this.data.page+'&pageSize=10',
             method:'GET',
             header: { 'Content-Type': 'application/json','Authorization': app.globalData.token},
             success (res) {
@@ -367,7 +367,7 @@ Page({
                 }
                 var text = JSON.stringify(appoint2);               
                 wx.request({
-                    url: 'http://192.168.1.8/dev-api/jsd/jsdschedule', 
+                    url: 'http://1.15.78.63/dev-api/jsd/jsdschedule', 
                     method:'PUT',
                     data:{
                         scheduleId: that.data.classId,
@@ -398,7 +398,7 @@ Page({
             num5:i,
         })
         wx.request({
-            url: 'http://192.168.1.8/dev-api/jsd/jsduser/list?pageNum='+i+'&pageSize=10',
+            url: 'http://1.15.78.63/dev-api/jsd/jsduser/list?pageNum='+i+'&pageSize=10',
             method:'get',
             data:{  
             },
@@ -421,7 +421,7 @@ Page({
                         }
                         var text = JSON.stringify(appoint2);
                         wx.request({
-                            url: 'http://192.168.1.8/dev-api/jsd/jsduser', 
+                            url: 'http://1.15.78.63/dev-api/jsd/jsduser', 
                             method:'PUT',
                             data:{
                                 userId: app.globalData.userId,
@@ -458,7 +458,7 @@ Page({
                 })
                 var app = getApp();
                 wx.request({
-                    url: 'http://192.168.1.8/dev-api/jsd/jsdschedule/list?pageNum='+that.data.page+'&pageSize=10',
+                    url: 'http://1.15.78.63/dev-api/jsd/jsdschedule/list?pageNum='+that.data.page+'&pageSize=10',
                     method:'GET',
                     header: { 'Content-Type': 'application/json','Authorization': app.globalData.token},
                     success (res) {
@@ -474,7 +474,7 @@ Page({
                         var text = JSON.stringify(appoint2);
                         console.log(that.data.classId);
                         wx.request({
-                            url: 'http://192.168.1.8/dev-api/jsd/jsdschedule', 
+                            url: 'http://1.15.78.63/dev-api/jsd/jsdschedule', 
                             method:'PUT',
                             data:{
                                 scheduleId: that.data.classId,
