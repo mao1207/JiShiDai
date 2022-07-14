@@ -10,8 +10,6 @@
         "pages/webview/index5",
         "pages/me/index",
         "pages/introduction/index",
-        "pages/appointment",
-        "pages/me",
         "pages/lecturer/lecturer",
         "pages/search/search"
     ],
