@@ -9,7 +9,11 @@ The "JiShiDai" group lecture online booking platform is based on WeChat Mini Pro
 - [RuoYi Framework](http://doc.ruoyi.vip/ruoyi/)
 
 ## Product Show
-![](https://github.com/mao1207/JiShiDai/tree/work_new/miniprogram/images/Slide1.png)
-![](https://github.com/mao1207/JiShiDai/tree/work_new/miniprogram/images/Slide2.png)
-![](https://github.com/mao1207/JiShiDai/tree/work_new/miniprogram/images/Slide3.png)
-![](https://github.com/mao1207/JiShiDai/tree/work_new/miniprogram/images/Slide4.png)
+![](https://github.com/mao1207/JiShiDai/blob/work_new/miniprogram/images/Slide1.png?raw=true)
+
+![](https://github.com/mao1207/JiShiDai/blob/work_new/miniprogram/images/Slide2.png?raw=true)
+
+![](https://github.com/mao1207/JiShiDai/blob/work_new/miniprogram/images/Slide3.png?raw=true)
+
+![](https://github.com/mao1207/JiShiDai/blob/work_new/miniprogram/images/Slide4.png?raw=true)
+
